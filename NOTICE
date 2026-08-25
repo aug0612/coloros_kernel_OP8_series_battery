@@ -1,0 +1,8 @@
+Ce dépôt est un fork de :
+JackA1ltman/ColorOS_NonGKI_Kernel_Build
+https://github.com/JackA1ltman/ColorOS_NonGKI_Kernel_Build
+
+Distribué sous licence Apache-2.0 (voir LICENSE).
+Modifications apportées : ajout d'un workflow de build dédié et d'un fragment
+de configuration kernel orienté économie de batterie et limitation thermique
+pour le OnePlus 8 Pro (instantnoodlep) sous ColorOS 16.
