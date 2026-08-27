@@ -1,0 +1,10 @@
+
+service battery_thermal /init.battery_thermal.sh
+    class late_start
+    user root
+    group root
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    start battery_thermal
